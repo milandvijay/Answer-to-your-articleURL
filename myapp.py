@@ -8,7 +8,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQAWithSourcesChain
 
-os.environ["OPENAI-API-KEY"]='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'
+os.environ["OPENAI-API-KEY"]='**use your own open api key**'
 llm = OpenAI(openai_api_key = os.environ["OPENAI-API-KEY"],temperature= 0.9,max_tokens=1000,model="gpt-3.5-turbo-instruct")
 st.title("Answer to Your Article ")
 
